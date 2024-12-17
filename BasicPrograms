@@ -1,3 +1,4 @@
+//1. FACTORIAL OF A NUMBER
 function calculateFactorial(num) {
     let result = 1;
  for (let i = 2; i <= num; i++) {
@@ -7,4 +8,27 @@ function calculateFactorial(num) {
     
  }
  console.log(calculateFactorial(5));
+
+
+ //2.Printing sum of n Natural Numbers [For Loop]:
+ // //loop from i= 1 to i=n
+ //in each iteration, i is increased by 1
+  
+ let sum= 0;
+ const n =100;
+for (let i = 0; i <=n; i++) {
+   sum +=i;    //sum=sum+i
+  
+ }
+ console.log("sum is:" + sum);
+
+// //3.Sum of only Positive Numbers:[While Loop]
+
+//    let num=0,sum1=0;
+//    while (num >= 0) {
+//     sum1+= num;
+//   //Taking input from the User
    
+//   num = parseInt(prompt("Enter a number: "));
+// }
+//  console.log("The sum is:" + sum1);
