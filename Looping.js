@@ -38,6 +38,19 @@
               //display the key value pairs
               console.log(`${key} => ${student[key]}`);
             }
+
+            //for..in with Strings:
+            const string4 = 'code';
+            for (let i in string4) {
+               console.log(string4[i]);
+              };
+
+            //For..in with Arrays:
+            // define array
+            const arr = ["hello", 1, "JavaScript"];
+             for (let x in arr) {
+               console.log(arr[x]);
+             };  
            
          //3.for.. of loop---->It allows you to iterate over iterable objects (arrays, sets, maps, strings etc).
 
@@ -105,4 +118,5 @@
             num--;
             
           } while (num>=1);
-
+       
+              
